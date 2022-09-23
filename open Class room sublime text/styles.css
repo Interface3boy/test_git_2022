@@ -1,0 +1,67 @@
+@font-face {													/** Declaration d'une police telecharger **/		
+    font-family: 'MaSuperPolice';								/** Nom de la police **/ 
+    src: url('MaSuperPolice.eot') format('eot'),				/** Source de la police en eot **/
+         url('MaSuperPolice.woff') format('woff'),				/** Source de la police en woff **/
+         url('MaSuperPolice.ttf') format('truetype'),			/** Source de la police en truetype **/
+         url('MaSuperPolice.svg') format('svg');				/** Source de la police en svg **/
+}
+p							/** Selection tout paragraph **/
+{
+}	
+
+h1, em						/** Sélectionne Tous les titres <h1> et tous les textes  <em> **/
+{
+}
+
+.class						/** Sélectionne un attribut class **/
+{									
+}				
+				
+#id							/** Sélectionne un attributs ID **/
+{								
+}				
+				
+*							/** Sélecteur universel **/
+{								
+}				
+				
+h3 em						/** Sélectionne une balise contenue dans une autre / Sélectionne toutes les balises <em>  situées à l'intérieur d'une balise <h3> **/
+{								
+}				
+				
+h3 + p						/** Sélectionne une balise qui en suit une autre / Sélectionne la première balise <p> située après un titre <h3> **/
+{				
+}
+
+a[title]					/** Sélectionne tous les liens <a>  qui possèdent un attribut title **/
+{
+}
+
+a[title="Cliquez ici"]		/** Sélectionne A[attribut="Valeur"] : une balise, un attribut et une valeur exacte / l'attribut doit en avoir exactement pour valeur « Cliquez ici » **/
+{
+}
+
+a[title*="ici"]				/** Sélectionne A[attribut*="Valeur"] : une balise, un attribut et une valeur / l'attribut doit cette fois contenir dans sa valeur le mot « ici » (peu importe sa position)**/
+{			
+}
+			/** Pseudo Format / information que l'on rajoute après le nom de la balise (ou de la classe) **/
+
+a:hover						/* Apparence au survol des liens */
+{
+}
+
+a:active 					/* Quand le visiteur clique sur le lien */
+{   
+}
+
+a:focus 					/* Quand le visiteur sélectionne le lien */
+{   
+}
+
+a:visited 					/* Quand le visiteur a déjà vu la page concernée */
+{ 
+}
+
+div:nth-child				/* Flexbox : matches every element that is the nth child of its parent */
+{
+}
